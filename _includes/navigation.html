@@ -3,7 +3,11 @@
   <nav class="full-width">
     <ul class="nav-logo">
       {% for item in site.posts-logos %}
-      <li><a href="{{ item.href }}" target="{{ item.target }}"><span class="icon {{ item.icon }}"></span></a></li>
+      <li>
+        <a href="{{ item.href }}" target="{{ item.target }}">
+          <img src="{{ item.logo }}">
+        </a>
+      </li>
       {% endfor %}
     </ul>
     <ul class="links-social-buttons-search">
