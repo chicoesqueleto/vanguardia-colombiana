@@ -14,16 +14,44 @@
   --neutral-70: #707070;
   --neutral-80: #5C5C5C;
   --neutral-90: #474747;
-  --text: #333;
-  --dark: #000;
+  --brown-0: #FDFCFA;
+  --brown-10: #F0ECE6;
+  --brown-20: #D7D2CA;
+  --brown-30: #C4BDB2;
+  --brown-40: #B1A89A;
+  --brown-50: #9E9382;
+  --brown-60: #8B7E6A;
+  --brown-70: #786952;
+  --brown-80: #65543A;
+  --brown-90: #53411E;
+  --brown: #30250F;
 
-  --main-orange: #FC6B38;
+  --scarlet-red: #FF4520;
+  --bright-scarlet-red: #FF8F79;
+  --dark-scarlet-red: #CC371A;
+
+  --blue-galaxy: #003399;
+  --bright-blue-galaxy: #6685C2;
+  --dark-blue-galaxy: #00297A;
+
+  --dark-yellow: #FFCD00;
+  --bright-dark-yellow: #FFD633;
+  --dark-dark-yellow: #CCA300;
+
+  --materia-prima-blue: #1B2C43;
+  --materia-prima-gold: #CEAC57;
+  --bear-gold: #C29D4C;
+
+  --text: #333;
+  --dark: #191919;
+
+  --bright-inferno: #FC6B38;
   --main-blue: #83CFDB;
   --secondary-purple: #995EDD;
   --secondary-mint: #6DE4DA;
 
   // Headings
-  --headings: 'DM Sans', sans-serif;
+  --headings: 'Bebas Neue', sans-serif;
   --headings-line-height: 1.12;
 
   // Paragraphs
@@ -31,15 +59,15 @@
   --paragraphs-line-height: 1.5;
 
   // Font Sizes
-  --h6: 1.125rem;
-  --h5: 1.263rem;
-  --h4: 1.419rem;
-  --h3: 1.6rem;
-  --h2: 1.8rem;
-  --h1: 2.025rem;
-  --h-l: 2.281rem;
-  --h-xl: 2.563rem;
-  --h-xxl: 2.881rem;
+  --h6: 1.419rem;
+  --h5: 1.6rem;
+  --h4: 1.769rem;
+  --h3: 2.025rem;
+  --h2: 2.275rem;
+  --h1: 2.563rem;
+  --h-l: 2.875rem;
+  --h-xl: 3.25rem;
+  --h-xxl: 3.65rem;
   
   --p-xxs: 0.79rem;
   --p-xs: 0.888rem;
