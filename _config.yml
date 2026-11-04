@@ -21,8 +21,8 @@
 title: Vanguardia Colombiana
 email: hola@fluorescente.design
 description: Una asociación cultural con vocación política que se consolida como una escuela de formación de cuadros en materialismo político.
-url: "/vanguardia-colombiana" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: ""
+url: "https://chicoesqueleto.github.io"
+baseurl: "/vanguardia-colombiana"
 author-url: "https://www.vanguardiacolombiana.com/"
 author: Vanguardia Colombiana
 creator: Vanguardia Colombiana
