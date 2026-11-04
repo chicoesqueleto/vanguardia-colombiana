@@ -1,17 +1,17 @@
 ---
 # --- Identificación ---
-layout: basic-index
-title: "Estilos y componentes básicos para Figma y Jekyll"
+layout: index
+title: "Vanguardia Colombiana"
 name: "Inicio"
-heading: "Estilos y componentes básicos para Figma y Jekyll"
+heading: "Vanguardia Colombiana"
 permalink: /
 
 # --- SEO / Metadatos ---
-description: "Base de estilos y componentes para Figma y Jekyll. Tipografía, colores, botones, imágenes responsive y componentes listos para wireframes y desarrollo."
-author: "fluorescente.design"
-date: 2026-02-09
-tags: ["Figma", "Jekyll", "wireframes", "componentes", "CSS", "responsive"]
-keywords: "Figma estilos, Jekyll componentes, wireframes responsive, diseño desarrollo"
+description: "Una asociación cultural con vocación política que se consolida como una escuela de formación de cuadros en materialismo político."
+author: "Vanguardia Colombiana"
+date: 2026-11-04
+tags: ["Materialismo Político", "Colombia", "Vanguardia", "escuela", "formación de cuadros", "Gustavo Bueno"]
+keywords: "Materialismo Político, Colombia, Vanguardia, escuela de formación de cuadros"
 image: "assets/images/basic/estilos-y-componentes-basicos-card.png"
 
 # --- Hero / Imagen principal ---
@@ -19,16 +19,11 @@ hero-image-xs: "/assets/images/basic/hero-image-xs-lg.svg"
 hero-image-sm: "/assets/images/basic/hero-image-sm.svg"
 hero-image-lg: "/assets/images/basic/hero-image-xs-lg.svg"
 hero-image-src: "/assets/images/basic/hero-image-xs-lg.svg"
-hero-image-alt: "Muestra de estilos tipográficos, colores, botones, una tarjeta, una imágen de proporción 3:2, y un paginador"
+hero-image-alt: "Collage de un paisaje con elementos colombianos. Montañas, palmeras, papagayo, campesino recogiendo café y oso de anteojos"
 
 # --- Footer ---
-footer-text: '**Diseño y desarrollo:** [**fluorescente.design**](https://www.fluorescente.design){:target="_blank"} Si estos recursos te parecen útiles, puedes dejar un aporte en Ko-fi. Gracias <span class="icon icon-heart-fill"></span>'
-
-# -- Links ---
-figma-link: "https://github.com/fluorescente/estilos-y-componentes-basicos-para-figma-y-jekyll/raw/refs/heads/main/assets/figma/Estilos-y-componentes-b%C3%A1sicos.fig"
-jekyll-link: "https://github.com/fluorescente/estilos-y-componentes-basicos-para-figma-y-jekyll/raw/refs/heads/main/assets/jekyll-zip/estilos-y-componentes-b-sicos-para-figma-y-jekyll-main.zip"
-github-link: "https://github.com/fluorescente/estilos-y-componentes-basicos-para-figma-y-jekyll.git"
+footer-text: '© 2026 Vanguardia Colombiana. Todos los derechos reservados.'
 
 ---
 
-Una base para wireframes, diseño y desarrollo. Incluye estilos tipográficos, colores neutros, botones, enlaces, imágenes en diferentes proporciones, íconos, y algunos componentes.
+Somos una asociación cultural con vocación política que en nuestra fase actual nos consolidamos como una escuela de formación de cuadros en materialismo político: un espacio donde teoría y práctica se articulan mediante la praxis y el análisis crítico de la realidad nacional e internacional. Nuestro horizonte es superar el actual estado de impotencia y subordinación, y mejorar las condiciones materiales de la inmensa mayoría de nuestra sociedad. Los trabajadores representamos más del 90% de la población; si logramos organizarnos y ponernos de acuerdo sobre bases fundamentales, podremos convertirnos en la clase dirigente que tome las riendas de nuestro país para construir una nación y una   civilización donde prevalezcan el bien común, la soberanía política y la independencia económica.

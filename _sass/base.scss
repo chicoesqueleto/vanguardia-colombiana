@@ -6,7 +6,7 @@ html {
   color: var(--text);
   font-family: var(--paragraphs);
   font-optical-sizing: auto;
-  font-weight: var(--medium);
+  font-weight: var(--regular);
   font-style: normal;
   font-variation-settings: "SOFT" 0, "WONK" 0;
   scroll-behavior: smooth;
@@ -22,8 +22,8 @@ body {
 
 ::selection,
 -moz-selection {
-  color: var(--bright);
-  background-color: var(--neutral-30);
+  color: var(--text);
+  background-color: var(--dark-yellow);
 }
 
 figure {

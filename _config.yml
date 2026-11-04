@@ -18,16 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Estilos básicos y componentes
+title: Vanguardia Colombiana
 email: hola@fluorescente.design
-description: Base de estilos y componentes para Figma y Jekyll. Tipografía, colores, botones, imágenes responsive y componentes listos para wireframes y desarrollo.
-url: "/estilos-y-componentes" # the base hostname & protocol for your site, e.g. http://example.com
-author-url: "https://fluorescente.design"
-author: Fluorescente
-creator: Fluorescente
-# twitter_username: jekyllrb
-github_username: fluorescente
-ko-fi_url: "https://ko-fi.com/fluorescente"
+description: Una asociación cultural con vocación política que se consolida como una escuela de formación de cuadros en materialismo político.
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+author-url: "https://www.vanguardiacolombiana.com/"
+author: Vanguardia Colombiana
+creator: Vanguardia Colombiana
+twitter_username: VanguardiaColo
+facebook_username: Vanguardia-Colombiana/100092503032769
+instagram_username: vanguardiacol
+tik-tok_username: lavanguardiacolombiana
+la-materia-prima-url: https://lamateriaprima.org/
+donations-link: ""
+
 lang: es
 locale: es_CO
 logo: assets/images/logo.png
@@ -46,6 +51,14 @@ sass:
   sourcemap: never 
 
 collections:
+  posts-logos:
+    output: true
+  posts-nav-links:
+    output: true
+  posts-platforms:
+    output: true 
+  posts-toggle-navigation:
+    output: true        
   basic-typography-heading-styles:
     output: true
   basic-typography-paragraph-styles:

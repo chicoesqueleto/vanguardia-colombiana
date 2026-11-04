@@ -1,0 +1,22 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.lang }}" class="basic landing">
+{% include head.html %}
+  <body>
+    {% include navigation.html %}
+    <!-- Header Two Columns 02 -->
+    <header class="full-width">
+      <div class="header-text">
+        <h1 class="h-xxl">{{ page.heading }}</h1>
+        {{ page.content | markdownify | replace: '<p>', '<p class="p-base">' }}
+      </div>
+    </header>
+    <main>
+
+    </main>
+    {% include basic-footer.html %} 
+  </body>
+</html>    

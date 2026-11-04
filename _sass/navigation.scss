@@ -1,5 +1,5 @@
 .nav-container {
-  background-color: var(--neutral-0);
+  background-color: var(--brown-0);
   padding: 1rem 0;
 }
 
@@ -27,11 +27,11 @@ nav {
   a {
     font-weight: var(--bold);
     border-bottom: none;
-    color: var(--dark);
+    color: var(--brown);
     line-height: 0;
 
     &:hover {
-      color: var(--neutral-70);
+      color: var(--brown);
       background-color: inherit;
     }
   }
@@ -57,25 +57,29 @@ nav {
 .nav-links,
 .nav-platforms,
 .nav-buttons {
-  margin-right: 1.75rem;
+  margin-right: 2rem;
 }
 
 .nav-links,
 .nav-buttons {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .nav-links a {
+  font-size: var(--p-xs);
+  font-weight: var(--black);
+  text-transform: uppercase;
+  letter-spacing: 12%;
   &::after {
     content: "";
     display: block;
     width: 100%;
     height: 2px;
     position: relative;
-    top: 1.31rem;
+    top: .75rem;
     margin: 0 auto;
-    background-color: var(--dark);
+    background-color: var(--scarlet-red);
     transition: all 0.5s cubic-bezier(1, 0.25, 0, 0.75) 0s;
     transform: scaleX(0);
     -webkit-transform: scaleX(0);
@@ -99,10 +103,10 @@ nav {
 }
 
 .nav-platforms li {
-  font-size: var(--h3);
+  font-size: 1.5rem;
 
   a:hover {
-    color: var(--neutral-70);
+    color: var(--scarlet-red);
   }
 }
 
