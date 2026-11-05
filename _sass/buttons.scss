@@ -68,9 +68,9 @@ button,
 
   &:hover,
   &:focus {
-    background-color: var(--neutral-90);
+    background-color: var(--scarlet-red);
     color: var(--bright);
-    border: 2px solid var(--neutral-90);
+    border: 3px solid var(--scarlet-red);
   }
 
   &:active {

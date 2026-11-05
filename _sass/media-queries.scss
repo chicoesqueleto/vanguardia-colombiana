@@ -61,106 +61,24 @@
     padding-right: 0;
   }
 
-  .ux-library-header{
-    padding-bottom: 3em;
+  .nav-logo img {
+    width: 6rem;
   }
 
-  .containers-container,
-  .cards-container {
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 2rem;
-    row-gap: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .containers-container .container-horizontal:nth-child(even),
-  .cards-container .card-horizontal:nth-child(even) {
-    grid-column: 3 / 5;
-  }
-
-  .container-horizontal {
-    gap: 2rem;
-  }
-
-  .container-horizontal figure,
-  .card-horizontal figure {
-    margin-bottom: 0;
-  }
-
-  .header-background {
-    height: 80vh;
-    padding: 0;
-  }
-
-  .header-two-columns-01,
-  .header-two-columns-02 {
-    gap: 2rem;
-    align-items: center;
-  }
-
-  .header-two-columns-01 {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  .header-two-columns-02 {
-    grid-template-columns: repeat(12, 1fr);
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-
-    .header-content {
-      grid-column: 1 / 8;
-    }
-
-    .slideshow {
-      grid-column: 8 / 13;
-    }
-  }
-
-  .headings-container,
-  .paragraphs-container {
-    gap: 2rem;
-  }
-
-  .paragraphs-container {
-    columns: 3;
-  }
-
-  .form-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .buttons-container,
-  .links-container,
-  .arrow-links-container,
-  .images-container,
-  .icons-container,
-  .checkboxes-container,
-  .radio-buttons-container {
-    gap: 2rem;
-  }
-
-  .colors-container,
-  .icons-container {
-    grid-template-columns: repeat(12, 1fr);
-    align-items: start;
-  }
-
-  .buttons-container,
-  .links-container,
-  .arrow-links-container,
-  .checkboxes-container,
-  .radio-buttons-container {
-    grid-template-columns: repeat(6, 1fr);
-  }
-
-  .post{
+  .index{
     header{
-      padding-top: 2rem;
+      padding-right: 0;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 2rem;
+      align-items: center;
+      .header-text{
+        grid-column: 1 / 8;
+      }
+      .header-image{
+        grid-column: 8 / 13;
+      }
     }
   }
 
-  .images-container {
-    grid-template-columns: repeat(4, 1fr);
-  }
 }
