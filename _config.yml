@@ -60,7 +60,9 @@ collections:
   posts-platforms:
     output: true 
   posts-toggle-navigation:
-    output: true        
+    output: true 
+  posts-goals-slideshow:
+    output: true          
   basic-typography-heading-styles:
     output: true
   basic-typography-paragraph-styles:
