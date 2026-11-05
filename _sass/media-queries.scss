@@ -96,3 +96,34 @@
   }
 
 }
+
+// XL screens
+@media screen and (min-width: 1441px) {
+  .nav-container{
+    .full-width{
+      max-width: 100%;
+    }
+  }
+  .index{
+    header{
+      max-width: 100%;
+      padding-left: 4rem;
+      height: calc(100vh - 8rem);
+      overflow: hidden;
+      .header-text{
+        grid-column: 1 / 7;
+      }
+      .header-image{
+        grid-column: 7 / 13;
+        margin-bottom: 0;
+        height: calc(100vh - 8rem);
+      }
+    }
+  }
+
+  .presentation-video{
+    .video-container{
+      max-width: 1440px;
+    }
+  }
+}
