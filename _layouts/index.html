@@ -28,12 +28,16 @@ layout: compress
           <li><a class="button button-base button-ghost">Únete</a></li>
         </ul> 
       </div>
-      <figure class="header-image">
+      <figure class="header-image hidden-xs hidden-sm visible-lg">
         <img src="{{ page.hero-image-lg | relative_url }}" alt="{{ page.hero-image-alt }}" loading="lazy">
       </figure>
     </header>
     <main>
-
+      <section class="presentation-video">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/TNVTuR9BTqk?si=HcOCMGl7qeHaHXnW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </section>  
     </main>
     {% include uikit-javascript.html %}
   </body>
