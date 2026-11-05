@@ -3,15 +3,27 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="{{ site.lang }}" class="basic landing">
+<html lang="{{ site.lang }}" class="index">
 {% include head.html %}
   <body>
     {% include navigation.html %}
-    <!-- Header Two Columns 02 -->
-    <header class="full-width">
+    <picture class="header-image visible-xs visible-sm hidden-lg">
+      <source 
+        media="(min-width: 641px)" 
+        srcset="{{ page.hero-image-sm | relative_url }}">
+      <img 
+        src="{{ page.hero-image-xs | relative_url }}" 
+        alt="{{ page.hero-image-alt}}"
+        loading="lazy">
+    </picture>
+    <header class="full-width"> 
       <div class="header-text">
         <h1 class="h-xxl">{{ page.heading }}</h1>
         {{ page.content | markdownify | replace: '<p>', '<p class="p-base">' }}
+        <ul>
+          <li><a class="button button-base">Nuestro Programa</a></li>
+          <li><a class="button button-base button-ghost">Únete</a></li>
+        </ul> 
       </div>
     </header>
     <main>

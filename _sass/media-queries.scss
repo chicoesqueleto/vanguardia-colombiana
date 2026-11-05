@@ -14,97 +14,14 @@
     display: inherit;
   }
 
-  .ux-library-header{
-    padding-bottom: 2.5em;
-  }
-
-  .header-two-columns-01,
-  .header-two-columns-02 {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-    align-items: start;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  .header-two-columns-01 {
-    padding-left: 0 !important;
-    .slideshow-content{
-      margin-bottom: -.5rem !important;
+  .index{
+    header{
+      .header-text{
+        ul{
+          flex-direction: row;
+        }
+      }
     }
-  }
-
-  .containers-container,
-  .cards-container {
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 1.5rem;
-    row-gap: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .container-horizontal,
-  .card-horizontal {
-    grid-column: 1 / 3;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-    align-items: top;
-  }
-
-  .container-horizontal figure,
-  .card-horizontal figure {
-    margin-bottom: 0;
-  }
-
-  .card-horizontal .card-text {
-    padding: 0 1.5rem 0 0;
-  }
-
-  .card-horizontal {
-    align-items: center;
-  }
-
-  .paginator .visible-sm {
-    display: block;
-  }
-
-  .basic-main .paragraphs-container {
-    margin-bottom: 4rem;
-  }
-
-  .headings-container {
-    margin-bottom: 4rem;
-  }
-
-  .headings-container,
-  .paragraphs-container {
-    columns: 2;
-    gap: 1.5rem;
-  }
-
-  .colors-container,
-  .buttons-container,
-  .links-container,
-  .arrow-links-container,
-  .images-container,
-  .icons-container,
-  .checkboxes-container,
-  .radio-buttons-container {
-    gap: 2rem 1.5rem;
-  }
-
-  .colors-container,
-  .icons-container {
-    grid-template-columns: repeat(5, 1fr);
-  }
-
-  .buttons-container,
-  .links-container,
-  .arrow-links-container,
-  .images-container,
-  .checkboxes-container,
-  .radio-buttons-container {
-    grid-template-columns: repeat(3, 1fr);
   }
 }
 

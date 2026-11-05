@@ -5,6 +5,8 @@ title: "Vanguardia Colombiana"
 name: "Inicio"
 heading: "Vanguardia Colombiana"
 permalink: /
+handle: /
+language: es
 
 # --- SEO / Metadatos ---
 description: "Una asociación cultural con vocación política que se consolida como una escuela de formación de cuadros en materialismo político."
@@ -15,10 +17,10 @@ keywords: "Materialismo Político, Colombia, Vanguardia, escuela de formación d
 image: "assets/images/basic/estilos-y-componentes-basicos-card.png"
 
 # --- Hero / Imagen principal ---
-hero-image-xs: "/assets/images/basic/hero-image-xs-lg.svg"
-hero-image-sm: "/assets/images/basic/hero-image-sm.svg"
-hero-image-lg: "/assets/images/basic/hero-image-xs-lg.svg"
-hero-image-src: "/assets/images/basic/hero-image-xs-lg.svg"
+hero-image-xs: "/assets/images/index-hero-image-xs.jpg"
+hero-image-sm: "/assets/images/index-hero-image-sm.jpg"
+hero-image-lg: "/assets/images/index-hero-image-lg.svg"
+hero-image-src: "/assets/images/index-image-lg.svg"
 hero-image-alt: "Collage de un paisaje con elementos colombianos. Montañas, palmeras, papagayo, campesino recogiendo café y oso de anteojos"
 
 # --- Footer ---

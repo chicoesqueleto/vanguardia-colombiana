@@ -33,6 +33,8 @@ tik-tok_username: lavanguardiacolombiana
 la-materia-prima-url: https://lamateriaprima.org/
 donations-link: ""
 
+permalink: pretty
+
 lang: es
 locale: es_CO
 logo: assets/images/logo/logo-vanguardia-colombiana.png
