@@ -42,3 +42,18 @@
     }
   }
 }
+
+.goals{
+  background-color: var(--brown-10);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  .goals-text{
+    h2{
+      font-size: var(--h1);
+      margin-bottom: .5rem;
+    }
+    p:last-of-type{
+      margin-bottom: 2rem;
+    }
+  }
+}

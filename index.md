@@ -20,6 +20,7 @@ image: "assets/images/basic/estilos-y-componentes-basicos-card.png"
 hero-image-xs: "/assets/images/index-hero-image-xs.jpg"
 hero-image-sm: "/assets/images/index-hero-image-sm.jpg"
 hero-image-lg: "/assets/images/index-hero-image-lg.jpg"
+hero-image-xlg: "/assets/images/index-hero-image-xlg.jpg"
 hero-image-src: "/assets/images/index-image-lg.jpg"
 hero-image-alt: "Collage de un paisaje con elementos colombianos. Montañas, palmeras, papagayo, campesino recogiendo café y oso de anteojos"
 

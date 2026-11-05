@@ -28,16 +28,31 @@ layout: compress
           <li><a class="button button-base button-ghost">Únete</a></li>
         </ul> 
       </div>
-      <figure class="header-image hidden-xs hidden-sm visible-lg">
+<!--       <figure class="header-image hidden-xs hidden-sm visible-lg">
         <img src="{{ page.hero-image-lg | relative_url }}" alt="{{ page.hero-image-alt }}" loading="lazy">
-      </figure>
+      </figure> -->
+      <picture class="header-image hidden-xs hidden-sm visible-lg">
+        <source 
+          media="(min-width: 1441px)" 
+          srcset="{{ page.hero-image-xlg | relative_url }}">
+        <img 
+          src="{{ page.hero-image-lg | relative_url }}" 
+          alt="{{ item.alt }}"
+          loading="lazy">
+      </picture>
     </header>
     <main>
       <section class="presentation-video">
         <div class="video-container">
           <iframe src="https://www.youtube.com/embed/TNVTuR9BTqk?si=HcOCMGl7qeHaHXnW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-      </section>  
+      </section> 
+      <section class="goals full-width">
+        <div class="goals-text">
+          <h2>Nuestros objetivos</h2>
+          <p>Los puntos básicos que guían nuestras ideas y nuestro proyecto político son:</p>
+        </div>
+      </section> 
     </main>
     {% include uikit-javascript.html %}
   </body>
