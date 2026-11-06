@@ -28,18 +28,7 @@ layout: compress
           <li><a class="button button-base button-ghost">Únete</a></li>
         </ul> 
       </div>
-<!--       <figure class="header-image hidden-xs hidden-sm visible-lg">
-        <img src="{{ page.hero-image-lg | relative_url }}" alt="{{ page.hero-image-alt }}" loading="lazy">
-      </figure> -->
-      <picture class="header-image hidden-xs hidden-sm visible-lg">
-        <source 
-          media="(min-width: 1441px)" 
-          srcset="{{ page.hero-image-xlg | relative_url }}">
-        <img 
-          src="{{ page.hero-image-lg | relative_url }}" 
-          alt="{{ item.alt }}"
-          loading="lazy">
-      </picture>
+      <div class="header-image hidden-xs hidden-sm visible-lg"></div>
     </header>
     <main>
       <section class="presentation-video">

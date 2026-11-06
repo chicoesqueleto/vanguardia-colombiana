@@ -79,10 +79,17 @@
       padding-bottom: 0;
       .header-text{
         grid-column: 1 / 8;
+        padding: 7.5rem 0;
       }
       .header-image{
         grid-column: 8 / 13;
+        width: 100%;
+        height: 100%;
         margin-bottom: 0;
+        background-image: url("../images/index-hero-image-lg.jpg");
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: cover;
       }
     }
   }
@@ -122,6 +129,7 @@
         grid-column: 7 / 13;
         margin-bottom: 0;
         height: calc(100vh - 8rem);
+        background-image: url("../images/index-hero-image-xlg.jpg");
       }
     }
   }
