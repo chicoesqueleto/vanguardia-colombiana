@@ -124,11 +124,12 @@
       overflow: hidden;
       .header-text{
         grid-column: 1 / 7;
+        padding: 10rem 0;
       }
       .header-image{
         grid-column: 7 / 13;
         margin-bottom: 0;
-        height: calc(100vh - 8rem);
+        // height: calc(100vh - 8rem);
         background-image: url("../images/index-hero-image-xlg.jpg");
       }
     }
